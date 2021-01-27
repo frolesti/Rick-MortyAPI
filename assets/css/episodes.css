@@ -1,0 +1,60 @@
+body {
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    background-image: url('https://images6.alphacoders.com/909/thumb-350-909641.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100vh;
+    color: white;
+}
+
+header > h1{
+    font-family: 'Creepster', cursive;
+    color:white;
+    width: auto;
+    font-size: 60px;
+    text-shadow: 12px 12px 15px black;
+} 
+
+main {
+    display: flex;
+}
+.episode--container{
+    text-align: center;
+    position: relative;
+    font-size: larger;
+}
+
+.character--container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.char--container{
+    padding: 20px;
+    width: 25%;
+
+    height: auto;
+    position: relative;
+}
+.char--container > img{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+
+}
+.char-info{
+    border: 5px ridge gray;
+    opacity: 0.9;
+    width: auto;
+    color: gray;
+    background: white;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 18px;
+}

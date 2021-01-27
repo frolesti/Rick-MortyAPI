@@ -1,0 +1,17 @@
+.character-section {
+    padding: 20px 20vw;
+    margin-left: auto;
+    color: gray;
+    background: white;
+    opacity: 1;
+    border: 2px ridge gray;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 30px;
+}
+.character-section > section{
+    margin: 15px;
+}
+.character-section > img{
+    border-radius: 5px;
+}
